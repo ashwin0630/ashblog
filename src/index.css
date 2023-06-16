@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    @apply bg-gradient-to-b from-purple-900 to-indigo-900;
+  }
+  
+  /* Add new classes for the linear gradient background */
+  .bg-gradient-to-b {
+    background-image: linear-gradient(to top, #050624, #030621, #01061d, #000619, #000615, #020512, #04040e, #040309, #040206, #040103, #020001, #000000);
+  }
+  
